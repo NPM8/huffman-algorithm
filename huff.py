@@ -117,7 +117,6 @@ with open("decoded.txt", "w") as f:
     # print(array2)
     string = decode(array[0], array2)
     # print(string)
-    string2 = export_Tree(array[0])
-    f.write(string + "\n" + string2)
+    f.write(string)
 
 # --- END MAIN ---
